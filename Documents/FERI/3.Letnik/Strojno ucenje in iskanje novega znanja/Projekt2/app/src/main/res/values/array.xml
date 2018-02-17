@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="pozition">
+    <item>Levo krilo</item>
+    <item>Levi zunanji</item>
+    <item>Srednji zunanji</item>
+    <item>Desni zunanji</item>
+    <item>Desno krilo</item>
+    <item>Pivot</item>
+        </string-array>
+    <string-array name="kratice">
+        <item>LK</item>
+        <item>LZ</item>
+        <item>SZ</item>
+        <item>DZ</item>
+        <item>DK</item>
+        <item>PV</item>
+    </string-array>
+</resources>

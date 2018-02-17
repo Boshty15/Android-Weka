@@ -1,0 +1,141 @@
+%
+% DecisionTable...
+%Correctly Classified Instances          97               76.9841 %
+%Incorrectly Classified Instances        29               23.0159 %
+%
+% Vir podatkov: Rokometna zveza SLovenije
+%
+ @RELATION iris
+
+@ATTRIBUTE pozicija  {LK,LZ,SZ,DZ,DK,PV}
+@ATTRIBUTE st_Strelov   NUMERIC
+@ATTRIBUTE st_Golov  NUMERIC
+@ATTRIBUTE class        {Slabo,Povprecno,Odlicno}
+
+@DATA
+LK, 6,1,Slabo
+LZ, 5,3,Slabo
+SZ, 10,2,Slabo
+DZ, 8,4,Slabo
+DK, 7,4,Slabo
+PV, 6,1,Slabo
+LK, 6,5,Povprecno
+LZ, 5,4,Povprecno
+SZ, 10,8,Povprecno
+DZ, 8,7,Povprecno
+DK, 7,6,Povprecno
+PV, 6,5,Slabo
+LK, 6,6,Odlicno
+LZ, 5,5,Odlicno
+SZ, 10,10,Odlicno
+DZ, 8,8,Odlicno
+DK, 7,7,Odlicno
+PV, 6,6,Odlicno
+LK, 6,1,Slabo
+LZ, 5,3,Slabo
+SZ, 10,2,Slabo
+DZ, 8,4,Slabo
+DK, 7,4,Slabo
+PV, 6,1,Slabo
+LK, 6,5,Povprecno
+LZ, 5,4,Povprecno
+SZ, 10,8,Povprecno
+DZ, 8,7,Povprecno
+DK, 7,6,Povprecno
+PV, 6,5,Slabo
+LK, 6,6,Odlicno
+LZ, 5,5,Odlicno
+SZ, 10,10,Odlicno
+DZ, 8,8,Odlicno
+DK, 7,7,Odlicno
+PV, 6,6,Odlicno
+LK, 6,1,Slabo
+LZ, 5,3,Slabo
+SZ, 10,2,Slabo
+DZ, 8,4,Slabo
+DK, 7,4,Slabo
+PV, 6,1,Slabo
+LK, 6,5,Povprecno
+LZ, 5,4,Povprecno
+SZ, 10,8,Povprecno
+DZ, 8,7,Povprecno
+DK, 7,6,Povprecno
+PV, 6,5,Slabo
+LK, 6,6,Odlicno
+LZ, 5,5,Odlicno
+SZ, 10,10,Odlicno
+DZ, 8,8,Odlicno
+DK, 7,7,Odlicno
+PV, 6,6,Odlicno
+LK, 6,1,Slabo
+LZ, 5,3,Slabo
+SZ, 10,2,Slabo
+DZ, 8,4,Slabo
+DK, 7,4,Slabo
+PV, 6,1,Slabo
+LK, 6,5,Povprecno
+LZ, 5,4,Povprecno
+SZ, 10,8,Povprecno
+DZ, 8,7,Povprecno
+DK, 7,6,Povprecno
+PV, 6,5,Slabo
+LK, 6,6,Odlicno
+LZ, 5,5,Odlicno
+SZ, 10,10,Odlicno
+DZ, 8,8,Odlicno
+DK, 7,7,Odlicno
+PV, 6,6,Odlicno
+LK, 6,1,Slabo
+LZ, 5,3,Slabo
+SZ, 10,2,Slabo
+DZ, 8,4,Slabo
+DK, 7,4,Slabo
+PV, 6,1,Slabo
+LK, 6,5,Povprecno
+LZ, 5,4,Povprecno
+SZ, 10,8,Povprecno
+DZ, 8,7,Povprecno
+DK, 7,6,Povprecno
+PV, 6,5,Slabo
+LK, 6,6,Odlicno
+LZ, 5,5,Odlicno
+SZ, 10,10,Odlicno
+DZ, 8,8,Odlicno
+DK, 7,7,Odlicno
+PV, 6,6,Odlicno
+LK, 6,1,Slabo
+LZ, 5,3,Slabo
+SZ, 10,2,Slabo
+DZ, 8,4,Slabo
+DK, 7,4,Slabo
+PV, 6,1,Slabo
+LK, 6,5,Povprecno
+LZ, 5,4,Povprecno
+SZ, 10,8,Povprecno
+DZ, 8,7,Povprecno
+DK, 7,6,Povprecno
+PV, 6,5,Slabo
+LK, 6,6,Odlicno
+LZ, 5,5,Odlicno
+SZ, 10,10,Odlicno
+DZ, 8,8,Odlicno
+DK, 7,7,Odlicno
+PV, 6,6,Odlicno
+LK, 6,1,Slabo
+LZ, 5,3,Slabo
+SZ, 10,2,Slabo
+DZ, 8,4,Slabo
+DK, 7,4,Slabo
+PV, 6,1,Slabo
+LK, 6,5,Povprecno
+LZ, 5,4,Povprecno
+SZ, 10,8,Povprecno
+DZ, 8,7,Povprecno
+DK, 7,6,Povprecno
+PV, 6,5,Slabo
+LK, 6,6,Odlicno
+LZ, 5,5,Odlicno
+SZ, 10,10,Odlicno
+DZ, 8,8,Odlicno
+DK, 7,7,Odlicno
+PV, 6,6,Odlicno
